@@ -1,15 +1,15 @@
 # gulp_setup
 
-## node.jsインストール
+## 1.node.jsインストール
 https://nodejs.org/en/
 
-## gulpインストール
+## 2.gulpインストール
 `npm install -g gulp`  
 `npm install --save-dev gulp`
 
-## package.json作成
+## 3.package.json作成
 `npm init`  
 全てEnter
 
-## プラグインをインストール
+## 4.プラグインをインストール
 `npm install --save-dev gulp-cssmin gulp-rename`
