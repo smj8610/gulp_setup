@@ -16,7 +16,7 @@ https://nodejs.org/en/
 
 ## プラグインの設定
 ### gulpfile.jsを作成
-    `//プラグイン等
+    //プラグイン等
     var gulp = require('gulp');
     var cssmin =require('gulp-cssmin');
     var rename =require('gulp-rename');
@@ -29,4 +29,4 @@ https://nodejs.org/en/
 	  .pipe(gulp.dest('css'));//圧縮されたファイルの生成先
     });
 
-    //Watch`
+    //Watch
