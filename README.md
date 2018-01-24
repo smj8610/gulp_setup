@@ -16,7 +16,7 @@ https://nodejs.org/en/
 `npm install --save-dev gulp-cssmin gulp-rename gulp-sass`
 
 ### gulp-sassのインストール時のエラー
-_エラーメッセージ_
+__エラーメッセージ__
 >gyp ERR! configure error
 gyp ERR! stack Error: EACCES: permission denied, mkdir '/Users/mc00180/Desktop/gulp/node_modules/node-sass/build'
 gyp ERR! System Darwin 16.7.0
