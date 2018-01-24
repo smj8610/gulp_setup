@@ -29,5 +29,4 @@ gulp.task('cssmin',function(){
 	.pipe(gulp.dest('css'));//圧縮されたファイルの生成先
 });
 
-//Watch
-`
+//Watch`
