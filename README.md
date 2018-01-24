@@ -36,7 +36,7 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 npm ERR! A complete log of this run can be found in:
 npm ERR!/Users/mc00180/.npm/_logs/2018-01-24T01_49_53_713Z-debug.log
 
-nvmコマンドでnodeのバージョンを切り替えで解決
+nvmコマンドでnodeのバージョンを切り替えで解決　　
 `nvm install 6.4.0`
 `nvm use 6.4.0`
 
