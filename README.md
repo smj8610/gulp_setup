@@ -4,11 +4,11 @@
 https://nodejs.org/en/
 
 ## gulpインストール
-`npm install -g gulp`
+`npm install -g gulp`  
 `npm install --save-dev gulp`
 
 ## package.json作成
-`npm init`
+`npm init`  
 全てEnter
 
 ## プラグインをインストール
