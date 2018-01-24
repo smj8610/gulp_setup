@@ -1,0 +1,7 @@
+.hoge{
+  display: flex;
+  font-size: 16px;
+}
+.hoge2{
+  align-items: center;
+}

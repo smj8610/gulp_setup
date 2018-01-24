@@ -2,6 +2,7 @@
 var gulp = require('gulp');
 var cssmin =require('gulp-cssmin');
 var rename =require('gulp-rename');
+var sass = require('gulp-sass');
 
 //Task
 gulp.task('cssmin',function(){
@@ -12,3 +13,8 @@ gulp.task('cssmin',function(){
 });
 
 //Watch
+gulp.task('watch',function(){
+	gulp.watch('css/style.css',['cssmin'])
+});
+
+gulp.task('default',['cssmin','watch']);
