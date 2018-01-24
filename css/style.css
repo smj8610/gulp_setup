@@ -1,13 +1,1 @@
-.hoge{
-  display: flex;
-  font-size: 16px;
-}
-.hoge2{
-  align-items: center;
-  justify-content: center;
-}
-.hoge3{
-  align-items: center;
-  justify-content: center;
-  font: 40px;
-}
+.hoge{display:flex;font-size:16px}.hoge .hoge2{align-items:center;justify-content:center}.hoge .hoge2 .hoge3{align-items:center;justify-content:center;font:20px}

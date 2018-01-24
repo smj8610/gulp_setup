@@ -43,17 +43,20 @@ __nvmコマンドでnodeのバージョンを切り替えで解決__
 
 ## プラグインの設定
 ### gulpfile.jsを作成
-    //プラグイン等
-    var gulp = require('gulp');
-    var cssmin =require('gulp-cssmin');
-    var rename =require('gulp-rename');
+//プラグイン等
+var gulp = require('gulp');
+var sass = require('gulp-sass');
 
-    //Task
-    gulp.task('cssmin',function(){
-	  gulp.src('css/style.css')//圧縮元ファイル
-	  .pipe(cssmin())
-	  .pipe(rename({suffix: '.min'}))
-	  .pipe(gulp.dest('css'));//圧縮されたファイルの生成先
-    });
+//Task
+gulp.task('sass',function(){
+	gulp.src('./css/style.scss')//圧縮元ファイル
+	.pipe(sass({outputStyle: 'compressed'}))
+	.pipe(gulp.dest('./css'));
+});
 
-    //Watch
+//Watch
+gulp.task('watch',function(){
+	gulp.watch('./css/style.scss', ['sass'])
+});
+
+gulp.task('default',['sass','watch']);
