@@ -40,9 +40,12 @@ __nvmコマンドでnodeのバージョンを切り替えで解決__
 `nvm install 6.4.0`  
 `nvm use 6.4.0`
 
+#### 参考
+[https://teratail.com/questions/95437]
+[https://qiita.com/strsk/items/925644e124efcc964625]
 
-## プラグインの設定
-### gulpfile.jsを作成
+## 設定
+### gulpfile.js
     //プラグイン等
     var gulp = require('gulp');
     var sass = require('gulp-sass');
