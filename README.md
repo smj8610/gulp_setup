@@ -16,7 +16,7 @@ https://nodejs.org/en/
 
 ## プラグインの設定
 ### gulpfile.jsを作成
-`//プラグイン等
+    `//プラグイン等
     var gulp = require('gulp');
     var cssmin =require('gulp-cssmin');
     var rename =require('gulp-rename');
