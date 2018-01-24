@@ -16,7 +16,7 @@ https://nodejs.org/en/
 `npm install --save-dev gulp-cssmin gulp-rename gulp-sass`
 
 ### gulp-sassのインストール時のエラー
-#### エラーメッセージ
+_エラーメッセージ_
 >gyp ERR! configure error
 gyp ERR! stack Error: EACCES: permission denied, mkdir '/Users/mc00180/Desktop/gulp/node_modules/node-sass/build'
 gyp ERR! System Darwin 16.7.0
@@ -36,7 +36,7 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 npm ERR! A complete log of this run can be found in:
 npm ERR!/Users/mc00180/.npm/_logs/2018-01-24T01_49_53_713Z-debug.log
 
-#### nvmコマンドでnodeのバージョンを切り替えで解決  
+_nvmコマンドでnodeのバージョンを切り替えで解決_  
 `nvm install 6.4.0`  
 `nvm use 6.4.0`
 
