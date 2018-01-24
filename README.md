@@ -15,7 +15,7 @@ https://nodejs.org/en/
 ## プラグインをインストール
 `npm install --save-dev gulp-cssmin gulp-rename gulp-sass`
 
-### gulp-sassのインストール時のエラ
+### gulp-sassのインストール時のエラー
 エラーメッセージ
 >gyp ERR! configure error
 gyp ERR! stack Error: EACCES: permission denied, mkdir '/Users/mc00180/Desktop/gulp/node_modules/node-sass/build'
